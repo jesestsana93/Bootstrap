@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carrousel</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+
+<body>
+
+
+	<div id="Carousel1" class="carousel slide" data-ride="carousel">
+		<!--Indicadores -->
+		<ol class="carousel-indicators">
+			<li data-target="#Carousel1" data-slide-to="0" class="active"></li>
+			<li data-target="#Carousel1" data-slide-to="1" ></li>
+			<li data-target="#Carousel1" data-slide-to="2" ></li>
+			<li data-target="#Carousel1" data-slide-to="3" ></li>
+		</ol>
+
+		<!--Contenedor de imagenes -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img src="imgs/img1.png" alt="Chania" class="img-responsive">
+				<div class="carousel-caption hidden-xs hidden-sm">
+					<h3>Pegale</h3>
+					<p>Como si fueran tus</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="imgs/img2.jpg" alt="Chania" class="img-responsive">
+				<div class="carousel-caption hidden-xs hidden-sm">
+					<h3>Damelo</h3>
+					<p>Todo tu dinero</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="imgs/img3.jpg" alt="Flower" class="img-responsive">
+				<div class="carousel-caption hidden-xs hidden-sm">
+					<h3>Bruce Lee</h3>
+					<p>No como otros que len</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="imgs/img4.png" alt="Flower" class="img-responsive">
+				<div class="carousel-caption hidden-xs hidden-sm">
+					<h3>¡Que me ven!</h3>
+					<p>No se rian</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- Controles-->
+		<a class="left carousel-control" href="#Carousel1" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+
+		<a class="right carousel-control" href="#Carousel1" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Siguiente</span>
+		</a>
+	</div>
+
+<!--scripts -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	
+</body>
+</html>

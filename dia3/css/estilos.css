@@ -1,0 +1,42 @@
+@font-face{
+url:"fonts/Marguaritas.ttf";
+font-family:Margaro;
+}
+
+.navbar{	
+	margin-bottom: 0px;
+}
+
+.nombre{
+	font-size: 40px; 
+}
+
+.bg-1{
+	background-color: #FFD275;
+}
+
+.foto{
+	width: 30%;
+	height: auto;
+}
+
+h1{
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;  //google url
+	font-family:Margaro;
+}
+
+.espacios{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bg-2{
+	background-color: #A57F60;
+	color: #fff;
+	font-size: 30px;
+}
+
+.espacios2{
+	padding:100px 0 100px 0;
+}

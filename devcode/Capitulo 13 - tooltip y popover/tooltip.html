@@ -1,0 +1,48 @@
+	<!DOCTYPE html>
+	<!--Tools -> Install package...aceptar -->
+	<!--Preferences -> package control -> Install.. emmet  -->
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tooltips</title>
+		<!--meta:vp tabulador-->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!--link tabulador -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+
+	<body>
+	
+	<div class="container">
+		<h1>Tooltips</h1>
+		<button class="btn btn-primary btn-lg" title="Hola">Presionar</button>
+
+		<br> <br>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-3">
+				<button class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="left" title="Izquierda">Presionar 1</button>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<button class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Superior">Presionar 2</button>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<button class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Inferior">Presionar 3</button>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<button class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="rigth" title="Derecha">Presionar 4</button>
+			</div>
+		</div>
+
+	</div>
+		
+
+	<!--script:src tab-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<!--primero se carga el motor de Jquery y despues el de bootstrap para que jale-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+
+</html>

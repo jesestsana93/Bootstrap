@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+</head>
+
+<body>
+
+	<div class="containter">
+	<!--Simple -->
+		<h3>Formulario simple</h3>
+		<form action="">
+
+		<div class="form-group has-success">	
+			<label for="email">Correo</label>
+			<input type="email" class="form-control" id="email">
+		</div>
+
+		<div class="form-group has-error has-feedback">
+			<label for="pwd">Contraseña</label>
+			<input type="password" class="form-control" id="pwd">
+			<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+		</div>
+
+		<div class="checkbox">
+			<label for="">
+				<input type="checkbox"> Recuérdame
+			</label>
+		</div>
+
+			<button type="submit" class="btn btn-primary">Enviar</button>
+
+		</form>
+<br>
+
+	<!--En linea -->
+	<h3>Formulario en línea</h3>
+
+		<form action="" class="form-inline">
+
+			<div class="form-group">
+				<div class="input-group">
+					<label for="email" class="sr-only">Correo</label>	
+					<div class="input-group-addon">@</div>
+					<input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+				</div>
+			</div>
+			
+			<!--Otra manera de poner el icono -->
+			<div class="form-group">
+				<div class="input-group">
+					<label for="phone" class="sr-only">Telefono</label>	
+					<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+					<input type="text" class="form-control" id="tel" placeholder="Tel">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="pwd">Contraseña</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+		
+			<div class="checkbox">
+				<label for="">
+					<input type="checkbox"> Recuérdame
+				</label>
+			</div>
+
+			<button type="submit" class="btn btn-primary">Enviar</button>
+
+		</form>
+
+<br>
+
+	<h3>Formulario horizontal</h3>
+
+		<form action="" class="form-horizontal">
+			
+		<div class="form-group">
+			<label for="email" class="control-label col-md-2">Correo</label>	
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+			</div>
+		</div>
+			
+			<div class="form-group">
+				<label for="pwd" class="control-label col-md-2">Contraseña</label>
+				<div class="col-md-10">
+					<input type="password" class="form-control" id="pwd" placeholder="Contraseña">
+				</div>
+			</div>
+		
+			<div class="form-group">
+				<div class="col-md-10 col-md-offset-2">
+					<div class="checkbox">
+						<label for="">
+							<input type="checkbox"> Recuérdame
+						</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-10 col-md-offset-2">
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<h3>Botones de radio</h3>
+
+		<div class="radio">
+			<label>
+				<input type="radio" name="opcradio">Opcion 1
+			</label>
+		</div>
+
+		<div class="radio">
+			<label>
+				<input type="radio" name="opcradio">Opcion 2
+			</label>
+		</div>
+		<!--Se deshabilita el boton -->
+		<div class="radio disabled">
+			<label>
+				<input type="radio" name="opcradio">Opcion 3
+			</label>
+		</div>
+
+		<br><br><br><br>
+
+		<h3>Radio in-line</h3>
+		<div class="radio-inline">
+			<label>
+				<input type="radio" name="opcradio">Opcion 1
+			</label>
+		</div>
+
+		<div class="radio-inline">
+			<label>
+				<input type="radio" name="opcradio">Opcion 2
+			</label>
+		</div>
+
+		<div class="radio-inline">
+			<label>
+				<input type="radio" name="opcradio">Opcion 3
+			</label>
+		</div>
+
+		</form>
+
+
+	</div>
+
+
+<!--scripts -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
